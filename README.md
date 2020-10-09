@@ -1,68 +1,72 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
+<h3 align="center">
 
-## Available Scripts
+Lolzinho é um projeto criado para melhorar minhas habilidades em ***ReactJS, Javascript, CSS, Redux Toolkit, Axios, useCallback***.
 
-In the project directory, you can run:
+</h3>
 
-### `yarn start`
+## **:rocket: OBJETIVO**
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+O projeto tem como propósito utilizar a API do League of Legends para retornar os dados dos campeões.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+## **:computer: TECNOLOGIAS**
 
-### `yarn test`
+#### **Website** ([React][react] + [JavaScript][javascript])
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+  - **[Axios][Axios]**
+  - **[useCallback][hooks]**
 
-### `yarn build`
+  \* Veja o arquivo <kbd>[package.json](./sources/website/package.json)</kbd>
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## **:wine_glass: COMO UTILIZAR**
 
-### `yarn eject`
+### Configurações Iniciais
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Primeiro, você precisa ter o <kbd>[NodeJS](https://nodejs.org/en/download/)</kbd> instalado na sua máquina. 
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Se você estiver utilizando o **Linux**, você pode optar por instalar o **Node** através do gerênciador de versões <kbd>[NVM](https://github.com/nvm-sh/nvm)</kbd> para facilitar o processo de mudança da versão do **Node**, quando for necessário.
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Você pode optar também por utilizar o **yarn** no lugar do **npm**. Você pode instalar clicando nesse <kbd>[link](https://classic.yarnpkg.com/en/docs/install/#debian-stable)</kbd>.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Após ter o **Node** instalado, instale as dependências do **React** de forma global, utilizando os comandos:
 
-## Learn More
+```sh
+# React:
+$ npm install create-react-app -g
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Instale as dependências contidas nos arquivos `package.json` que se encontram na raíz do repositório (para o gerenciamento de commits). Para instalar as dependências, basta abrir o terminal no diretório e digitar o comando:
 
-### Code Splitting
+```sh
+$ npm install
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+# ou
+$ yarn
+```
 
-### Analyzing the Bundle Size
+Veja os arquivos **`package.json`** do <kbd>[commitlint](./package.json)</kbd>
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
 
-### Making a Progressive Web App
+## **:books: REFERÊNCIAS**
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+- [ReactJS](https://reactjs.org/docs/getting-started.html) | [ReactJS pt-BR](https://pt-br.reactjs.org/docs/getting-started.html)
 
-### Advanced Configuration
+## **:page_with_curl: LICENÇA**
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+Esse repositório está licenciado pela **MIT LICENSE**. Para mais informações detalhadas, leia o arquivo [LICENSE](./LICENSE) contido nesse repositório. 
 
-### Deployment
+<h2 align="center">:checkered_flag: Feito por <a href="https://www.linkedin.com">Larrire</a></h2>
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
 
-### `yarn build` fails to minify
+<!-- Techs -->
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+[react]: https://reactjs.org/
+
+[javascript]: https://www.javascript.com
+
+[vscode]: https://code.visualstudio.com/
+
+[axios]: https://github.com/axios/axios
+
+[hooks]: https://reactjs.org/docs/hooks-reference.html
