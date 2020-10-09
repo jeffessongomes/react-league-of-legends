@@ -1,6 +1,6 @@
 <h3 align="center">
 
-Lolzinho é um projeto criado para melhorar minhas habilidades em ***ReactJS, Javascript, CSS, Redux Toolkit, Axios, useCallback***.
+Lolzinho é um projeto criado para melhorar minhas habilidades em ***ReactJS, Javascript, React Bootstrap, Redux Toolkit, Axios, useCallback***.
 
 </h3>
 
@@ -13,6 +13,7 @@ O projeto tem como propósito utilizar a API do League of Legends para retornar 
 #### **Website** ([React][react] + [JavaScript][javascript])
 
   - **[Axios][Axios]**
+  - **[ReactBootstrap](https://react-bootstrap.github.io)**
   - **[useCallback][hooks]**
 
   \* Veja o arquivo <kbd>[package.json](./sources/website/package.json)</kbd>
