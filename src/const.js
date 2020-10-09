@@ -1,0 +1,1 @@
+export const ROOT_LOL_API = `http://ddragon.leagueoflegends.com/cdn/10.20.1/img/champion`;
